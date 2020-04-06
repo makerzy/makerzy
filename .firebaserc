@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "newproj-57276": {
+      "hosting": {
+        "app": [
+          "newproj-57276"
+        ]
+      }
+    }
+  }
+}

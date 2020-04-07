@@ -13,4 +13,8 @@ export class HomePage implements OnInit {
   ngOnInit() {
     this.todoService.getTodos().subscribe((res) => (this.todos = res));
   }
+
+  remove(item){
+    this.todoService.removeTodo(item.id)
+  }
 }
